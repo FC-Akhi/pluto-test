@@ -43,7 +43,8 @@ pluto_CXXFLAGS = $(OPT_FLAGS) $(DEBUG_FLAGS) \
    -I$(top_srcdir)/candl/include \
    -I../polylib/include \
    -I$(top_srcdir)/polylib/include \
-   -I$(top_srcdir)/lib
+   -I$(top_srcdir)/lib \
+   -I$(top_srcdir)/json/single_include    # for nolhmann json
 
 # To avoid same name object from being created with libtool and without it.
 pluto_CFLAGS = $(AM_CFLAGS) $(pluto_CXXFLAGS)

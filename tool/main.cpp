@@ -31,7 +31,7 @@
 #include "post_transform.h"
 #include "program.h"
 #include "transforms.h"
-#include "version.h"
+#include "lib/version.h"
 
 #include "clan/clan.h"
 

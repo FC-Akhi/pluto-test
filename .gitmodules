@@ -22,3 +22,7 @@
 [submodule "pet"]
 	path = pet
 	url = https://github.com/bondhugula/pet-for-pluto.git
+[submodule "json"]
+	path = json
+	url = https://github.com/nlohmann/json.git
+	branch = v3.11.3

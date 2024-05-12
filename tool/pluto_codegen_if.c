@@ -24,7 +24,7 @@
 #include "pluto/matrix.h"
 #include "pluto/pluto.h"
 #include "program.h"
-#include "version.h"
+#include "lib/version.h"
 
 #include "cloog/cloog.h"
 #include "osl/extensions/loop.h"
